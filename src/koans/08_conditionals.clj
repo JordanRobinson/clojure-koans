@@ -10,7 +10,7 @@
 
 (meditations
   "You will face many decisions"
-  (= __ (if (false? (= 4 5))
+  (= :a (if (false? (= 4 5))
           :a
           :b))
 
@@ -35,8 +35,8 @@
 
   "Or your fate may be sealed"
   (= 'doom (if-not (zero? __)
-          'doom
-          'more-doom))
+             'doom
+             'more-doom))
 
   "In case of emergency, go fast"
   (= "pretty fast"
